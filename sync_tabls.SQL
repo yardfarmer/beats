@@ -1,0 +1,26 @@
+SET DEFINE OFF;
+Insert into SYNC_TABLES
+   (ID, TABLENAME, SYNCSTATE)
+ Values
+   (1, 'TOPO', 1);
+Insert into SYNC_TABLES
+   (ID, TABLENAME, SYNCSTATE)
+ Values
+   (2, 'TOPO_VIEW', 0);
+Insert into SYNC_TABLES
+   (ID, TABLENAME, SYNCSTATE)
+ Values
+   (3, 'FAULT_CURRENT_LOG', 0);
+Insert into SYNC_TABLES
+   (ID, TABLENAME, SYNCSTATE)
+ Values
+   (4, 'SUBNETINFO', 0);
+Insert into SYNC_TABLES
+   (ID, TABLENAME, SYNCSTATE)
+ Values
+   (5, 'TASKCONFIG', 0);
+Insert into SYNC_TABLES
+   (ID, TABLENAME, SYNCSTATE)
+ Values
+   (6, 'USER_INFO', 0);
+COMMIT;
